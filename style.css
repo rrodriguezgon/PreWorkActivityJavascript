@@ -1,0 +1,16 @@
+#BoxCalculadora {
+    width: 200px;
+}
+
+.BoxLine {
+    display: flex;
+    display: -webkit-flex;
+}
+
+.button1 {
+    flex: 1;
+}
+
+.button2 {
+    flex: 2;
+}
