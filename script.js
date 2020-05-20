@@ -45,11 +45,6 @@ function pressSymbol(symbolParam)
     } else {
         console.log("incorrect function");
     }   
-    
-    console.log(number1);
-    console.log(symbol);
-    console.log(number2);
-    console.log(result);
 }
 
 function pressNumber(numberParam)
@@ -74,11 +69,6 @@ function pressNumber(numberParam)
         txtNumber.value = numberParam;
         number2 = numberParam;
     }    
-
-    console.log(number1);
-    console.log(symbol);
-    console.log(number2);
-    console.log(result);
 }
 
 function operacion (symbolParam){
@@ -116,9 +106,4 @@ function operacion (symbolParam){
         txtNumber.value = result;
         number1 = result;        
     }    
-
-    console.log(number1);
-    console.log(symbol);
-    console.log(number2);
-    console.log(result);
 }
